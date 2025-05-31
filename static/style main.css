@@ -64,6 +64,7 @@ top: 30px;
 /*HEADER-DOWN*/
 
 .header-down {
+padding-top: 78px;
 display: flex;
 align-items: center;
 justify-content: space-around;
@@ -78,7 +79,7 @@ justify-content: space-around;
   justify-content: center; /* Центрируем изображение по горизонтали */
   align-items: center; /* Центрируем изображение по вертикали */
   /* Можно добавить рамку, тень и т.д. */
-  border: 4px solid #fff;
+  border: 10px solid #fff;
 
 }
 
