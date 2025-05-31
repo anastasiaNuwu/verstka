@@ -63,6 +63,11 @@ top: 30px;
 
 /*HEADER-DOWN*/
 
+.header-down {
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
 
 .round-container2 {
   width: 240px; /* Задайте фиксированную ширину контейнера */
@@ -84,3 +89,13 @@ top: 30px;
   display: block; /* Убираем лишнее пространство под изображением */
 }
 
+.edit-button {
+font-family: "Manrope", sans-serif;
+color:#fff;
+background-color: #476889;
+font-weight:300;
+font-size: 18px;
+padding: 9px 20px;
+left: 10px;
+border-radius: 10px 10px;
+}
