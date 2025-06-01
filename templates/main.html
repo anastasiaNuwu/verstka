@@ -13,9 +13,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 </head>
 <body>
-<div class="header">
-    <div class="container">
-        <div class="header-line">
+<div class="main-container">
+    <header class="header-line">
             <div class="header-logo">
                 <img src="..\static\logo\logo2.png" width="490" height="105">
             </div>
@@ -26,36 +25,95 @@
                 <a class="nav-item" href="@">задачи</a>
                 <a class="nav-item" href="@">чат</a>
             </div>
-            <div class="round">
-                <div class="round-container">
-                    <img src="..\static\profile photo\girl.png">
-                </div>
+            <div class="round-container">
+                <img src="..\static\profile photo\base.png">
             </div>
-        </div>
+    </header>
     <main>
         <div class="profile">
             <div class="profile-picture-column">
                 <div class="round-container2">
-                    <img src="..\static\profile photo\girl.png">
+                    <img src="..\static\profile photo\base.png">
                 </div>
                 <div class="edit-button">
                     редактировать
                 </div>
             </div>
             <div class="profile-data-column">
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
+                <div>
+                    <img src="" />
+                    <h3>Иванов Иван Иванович</h3>
+                </div>
+                <div>
+                    <img src="../static/job-icon.svg" width="25" height="25"/>
+                    <p>Младший инженер</p>
+                </div>
+                <div>
+                    <img src="../static/email-icon.svg" width="25" height="25"/>
+                    <p>ivanovivan@constr.ru</p>
+                </div>
+                <div>
+                    <img src="../static/phone-icon.svg" width="25" height="25"/>
+                    <p>+7 (900) 000-12-15</p>
+                </div>
             </div>
             <div class="personal-calendar-column">
-
+                <img src="../static/calendar.png" />
             </div>
             <div class="profile-links-column">
-
+               <a href="@">Мои файлы</a>
+               <a href="@">Мои документы</a>
+               <a href="@">Настройки профиля</a>
+               <a href="@">Выйти</a>
             </div>
         </div>
     </main>
-</div>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-links">
+                <h4>Компания</h4>
+                <a href="@">О компании</a>
+                <a href="@">Наши партнёры</a>
+                <a href="@">Отзывы клиентов</a>
+                <a href="@">Вопрос ответ</a>
+            </div>
+            <div class="footer-contacts">
+                <h4>Наши контакты</h4>
+                <div>
+                    <img src="../static/phone-icon.svg" width="15" height="15">
+                    <p>+7 (000) 000 00-00</p>
+                </div>
+                <div>
+                    <img src="../static/email-icon.svg" width="12" height="12">
+                    <p>newcontructs@mail.ru</p>
+                </div>
+                <div>
+                    <img src="../static/map-icon.svg" width="12" height="12">
+                    <p>Тула, ул. Металлургов 00, 5 этаж, офис 9</p>
+                </div>
+            </div>
+            <div class="map">
+                <div style="position:relative;overflow:hidden;border-radius: 20px;">
+                    <a
+                        href="https://yandex.ru/maps/15/tula/?utm_medium=mapframe&utm_source=maps"
+                        style="color:#eee;font-size:12px;position:absolute;top:0px;"
+                    >
+                        Тула
+                    </a>
+                    <a href="https://yandex.ru/maps/15/tula/house/ulitsa_metallurgov_55b/Z04YcA9hQEUGQFtufX14dH5lYg==/?ll=37.681900%2C54.195266&utm_medium=mapframe&utm_source=maps&z=16" style="color:#eee;font-size:12px;position:absolute;top:14px;">
+                        Улица Металлургов, 55Б — Яндекс Карты
+                    </a>
+                    <iframe
+                        src="https://yandex.ru/map-widget/v1/?ll=37.681900%2C54.195266&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NzY1MDc4MhI_0KDQvtGB0YHQuNGPLCDQotGD0LvQsCwg0YPQu9C40YbQsCDQnNC10YLQsNC70LvRg9GA0LPQvtCyLCA1NdCRIgoNRLoWQhXzx1hC&z=16"
+                        height="120"
+                        frameborder="1"
+                        allowfullscreen="true"
+                        style="position: relative;">
+                    </iframe>
+
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
