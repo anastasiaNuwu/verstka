@@ -17,7 +17,8 @@ body {
     padding-top: 1rem;
     display: flex;
     vertical-align: bottom;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 1rem 5rem;
 }
 
 .nav {
@@ -109,9 +110,12 @@ body {
     flex: 1;
     display: flex;
     flex-direction: column;
+    justify-items: center;
+    align-items: center;
     gap: 10px;
     margin: 0 1rem;
 }
+
 
 .profile-data-column {
     display: flex;
