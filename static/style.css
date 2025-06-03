@@ -1,13 +1,20 @@
 body {
+    background-image: url(back.png);
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: sans-serif;
     line-height: 1.5;
     min-height: 100vh;
-    background: #f3f3f3;
     flex-direction: column;
     margin: 0;
+    font-family: "Manrope", sans-serif;
+    
+}
+
+.logo {
+  margin-bottom: 2rem;
 }
 
 .main {
@@ -21,7 +28,9 @@ body {
 }
 
 h1 {
-    color: #4CAF50;
+    color: #476889;
+    font-weight: 200;
+    font-size: 2.5rem;
 }
 
 label {
@@ -31,10 +40,11 @@ label {
     margin-bottom: 5px;
     text-align: left;
     color: #555;
-    font-weight: bold;
+    font-weight: 400;
 }
 
-input {
+input,
+select {
     display: block;
     width: 100%;
     margin-bottom: 15px;
@@ -42,6 +52,26 @@ input {
     box-sizing: border-box;
     border: 1px solid #ddd;
     border-radius: 5px;
+}
+
+select {
+    color: #555;
+    background: white;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 5px;
+}
+
+.checkbox > label,
+.checkbox > input {
+    display: flex;
+    width: auto;
+    margin: 0;
+    padding: 0;
 }
 
 button {
@@ -52,9 +82,11 @@ button {
     border: none;
     color: white;
     cursor: pointer;
-    background-color: #4CAF50;
-    width: 100%;
+    background-color: #476889;
+    width: 50%;
     font-size: 16px;
+    text-transform: uppercase;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 .wrap {
