@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Home</title>
+    <title>Tasks</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
@@ -30,42 +30,76 @@
             </div>
     </header>
     <main>
-        <div class="profile">
-            <div class="profile-picture-column">
-                <div class="round-container2">
-                    <img src="..\static\profile photo\base.png">
+        <div class="cards-container">
+            <div class="card task">
+                <div class="card-info">
+                    <div class="card-line">
+                        <img src="../static/task-icon.png" height="15" width="15"/>
+                        <p>Задача: Проектирование и изггатовление складной солнечной панели</p>
+                    </div>
+                    <div class="card-line">
+                        <img src="../static/job-icon.svg" height="15" width="15"/>
+                        <p>Руководитель: Петров Пётр Петрович</p>
+                    </div>
+                    <div class="card-line">
+                        <img src="../static/time-icon.png" height="15" width="15"/>
+                        <p>Срок выполнения: 8 месяцев</p>
+                    </div>
+                    <div class="card-line">
+                        <img src="../static/list-icon.png" height="15" width="15"/>
+                        <p>Описание:</p>
+                    </div>
+                    <pre>
+    — Анализ требований и спецификаций
+    — Разработка концептуального дизайна
+    — Выбор материалов
+    — Создание 3D-модели
+    — Проведение инженерных расчетов
+    — Изготовление прототипа
+    — Тестирование прототипа
+    — Анализ результатов тестирования
+    — Подготовка к серийному производству
+                    </pre>
                 </div>
-                <button class="edit-button">
-                    редактировать
-                </button>
+                <div class="card-button-wrap">
+                    <button>Открыть задачу</button>
+                </div>
             </div>
-            <div class="profile-data-column">
-                <div>
-                    <h3>Иванов Иван Иванович</h3>
+            <div class="card task">
+                <div class="card-info">
+                    <div class="card-line">
+                        <img src="../static/task-icon.png" height="15" width="15"/>
+                        <p>Задача: Проектирование и изггатовление умного термостата</p>
+                    </div>
+                    <div class="card-line">
+                        <img src="../static/job-icon.svg" height="15" width="15"/>
+                        <p>Руководитель: Петров Пётр Петрович</p>
+                    </div>
+                    <div class="card-line">
+                        <img src="../static/time-icon.png" height="15" width="15"/>
+                        <p>Срок выполнения: 6 месяцев</p>
+                    </div>
+                    <div class="card-line">
+                        <img src="../static/list-icon.png" height="15" width="15"/>
+                        <p>Описание:</p>
+                    </div>
+                    <pre>
+    — Анализ требований и спецификаций
+    — Разработка концептуального дизайна
+    — Создание схемы электрических соединений
+    — Разработка программного обеспечения
+    — Создание 3D-модели корпуса
+    — Изготовление прототипа
+    — Тестирование прототипа
+    — Анализ результатов тестирования
+    — Подготовка к серийному производству
+                    </pre>
                 </div>
-                <div>
-                    <img src="../static/job-icon.svg" width="25" height="25"/>
-                    <p>Младший инженер</p>
-                </div>
-                <div>
-                    <img src="../static/email-icon.svg" width="25" height="25"/>
-                    <p>ivanovivan@constr.ru</p>
-                </div>
-                <div>
-                    <img src="../static/phone-icon.svg" width="25" height="25"/>
-                    <p>+7 (900) 000-12-15</p>
+                <div class="card-button-wrap">
+                    <button>Открыть задачу</button>
                 </div>
             </div>
-            <div class="personal-calendar-column">
-                <img src="../static/calendar.png" />
-            </div>
-            <div class="profile-links-column">
-               <a href="@">Мои файлы</a>
-               <a href="@">Мои документы</a>
-               <a href="@">Настройки профиля</a>
-               <a href="@">Выйти</a>
-            </div>
-        </div>
+         </div>
     </main>
     <footer class="footer">
         <div class="footer-container">
